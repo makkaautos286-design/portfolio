@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakkaAuto - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h2><i class="fas fa-store"></i> MakkaAuto</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-btn"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Background Image -->
+    <section class="hero"
+        style="background-image: url('https://images.pexels.com/photos/3807277/pexels-photo-3807277.jpeg?w=1400');">
+        <!-- style="background-image: url('https://images.pexels.com/photos/3822867/pexels-photo-3822867.jpeg?w=1400');"> -->
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="fade-up">
+            <span class="badge">Welcome to MakkaAuto</span>
+            <h1>Discover Amazing <span class="highlight">Products</span></h1>
+            <p>Shop the latest trends with exclusive discounts and free shipping</p>
+            <div class="hero-buttons">
+                <a href="products.html" class="btn btn-primary">Shop Now <i class="fas fa-arrow-right"></i></a>
+                <a href="about.html" class="btn btn-outline">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="categories">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Shop by Category</span>
+                <h2 class="section-title">Popular Categories</h2>
+            </div>
+            <div class="category-grid">
+                <div class="category-card" data-aos="zoom-in">
+                    <img src="images/1.jpeg" alt="1.jpeg">
+                    <div class="category-info">
+                        <h3>Electronics</h3>
+                        <a href="products.html" class="category-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="category-card" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?w=400" alt="Fashion">
+                    <div class="category-info">
+                        <h3>Fashion</h3>
+                        <a href="products.html" class="category-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="category-card" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400" alt="Accessories">
+                    <div class="category-info">
+                        <h3>Accessories</h3>
+                        <a href="products.html" class="category-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="category-card" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=400" alt="Home Decor">
+                    <div class="category-info">
+                        <h3>Home Decor</h3>
+                        <a href="products.html" class="category-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="products">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Our Collection</span>
+                <h2 class="section-title">Featured Products</h2>
+            </div>
+            <div class="product-grid">
+                <div class="product-card" data-aos="flip-left">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400" alt="Headphones">
+                        <div class="product-overlay">
+                            <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Wireless Headphones</h3>
+                        <p class="price">$79.99</p>
+                    </div>
+                </div>
+                <div class="product-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400" alt="Shoes">
+                        <div class="product-overlay">
+                            <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Running Shoes</h3>
+                        <p class="price">$89.99</p>
+                    </div>
+                </div>
+                <div class="product-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400" alt="Watch">
+                        <div class="product-overlay">
+                            <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Smart Watch</h3>
+                        <p class="price">$199.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Button (with animation) -->
+    <a href="https://wa.me/923123456789" target="_blank" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with us!</span>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Brand & Description -->
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <i class="fas fa-store"></i>
+                    <h2>MakkaAuto</h2>
+                </div>
+                <p class="footer-description">
+                    Your premier destination for quality products. We offer the best shopping experience with amazing
+                    discounts, fast delivery, and 24/7 customer support. Shop with confidence!
+                </p>
+            </div>
+            
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="products.html"><i class="fas fa-chevron-right"></i> Products</a></li>
+                    <li><a href="gallery.html"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+                    <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Follow Us  -->
+            <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <div class="social-icons-div">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="social-icons-div">
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="social-icons-div">
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+            <!-- Help & Support -->
+            <!-- <div class="footer-links">
+                <h4>Help & Support</h4>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Shipping Policy</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Returns & Refunds</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Terms & Conditions</a></li>
+                </ul>
+            </div> -->
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+    <form id="footerContactForm" onsubmit="sendFooterMessage(event)">
+        <div class="form-group">
+            <textarea id="footerMessage" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="send-btn">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+        </button>
+    </form>
+</div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-container">
+                <p>&copy; 2024 <strong>MakkaAuto</strong>. All Rights Reserved. | Designed with <i
+                        class="fas fa-heart"></i> for our customers</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

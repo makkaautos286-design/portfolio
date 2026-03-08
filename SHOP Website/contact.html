@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakkaAuto - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h2><i class="fas fa-store"></i> MakkaAuto</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="menu-btn"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header"
+        style="background-image: url('https://images.pexels.com/photos/3184424/pexels-photo-3184424.jpeg?w=1200');">
+        <div class="header-overlay"></div>
+        <div class="container">
+            <h1 data-aos="fade-up">Contact Us</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Get in touch with us</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info" data-aos="fade-right">
+                    <h2>Get in Touch</h2>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>123 Main Street, Karachi, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+92 312 3456789</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@MakkaAuto.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Working Hours</h3>
+                            <p>Mon-Sat: 10:00 AM - 9:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <h2>Send Message</h2>
+                    <form id="contactForm" onsubmit="sendToWhatsApp(event)">
+                        <div class="form-group-us">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group-us">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group-us">
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group-us">
+                            <textarea rows="5" id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="map-container" data-aos="fade-up">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.7137072193807!2d67.0099456!3d24.9219197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f90157042d3%3A0x93d609e8bec9a880!2sKarachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1647884567890!5m2!1sen!2s"
+                    style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/923123456789" target="_blank" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with us!</span>
+    </a>
+    <!-- ===== PROFESSIONAL FOOTER ===== -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Brand & Description -->
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <i class="fas fa-store"></i>
+                    <h2>MakkaAuto</h2>
+                </div>
+                <p class="footer-description">
+                    Your premier destination for quality products. We offer the best shopping experience with amazing
+                    discounts, fast delivery, and 24/7 customer support. Shop with confidence!
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="products.html"><i class="fas fa-chevron-right"></i> Products</a></li>
+                    <li><a href="gallery.html"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+                    <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Follow Us  -->
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <div class="social-icons-div">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="social-icons-div">
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="social-icons-div">
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Help & Support -->
+            <!-- <div class="footer-links">
+                <h4>Help & Support</h4>
+                <ul>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Shipping Policy</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Returns & Refunds</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Terms & Conditions</a></li>
+                </ul>
+            </div> -->
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form id="footerContactForm" onsubmit="sendFooterMessage(event)">
+                    <div class="form-group">
+                        <textarea id="footerMessage" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="send-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-container">
+                <p>&copy; 2024 <strong>MakkaAuto</strong>. All Rights Reserved. | Designed with <i
+                        class="fas fa-heart"></i> for our customers</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function sendToWhatsApp(event) {
+            event.preventDefault(); // Form ko submit hone se rokta hai
+
+            // Form se values le rahe hain
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var subject = document.getElementById('subject').value;
+            var message = document.getElementById('message').value;
+
+            // Agar subject empty hai to kuch default likho
+            if (subject === '') {
+                subject = 'No Subject';
+            }
+
+            // WhatsApp message banate hain
+            var whatsappMessage = "*I am coming from your website"+ "%0A" + "Contact Me! *%0A%0A" +
+                "Name:* " + name + "%0A" +
+                "*Email:* " + email + "%0A" +
+                "*Subject:* " + subject + "%0A" +
+                "*Message:*%0A" + message;
+
+            // APNA WHATSAPP NUMBER YAHAN LAGAO (country code ke saath)
+            // Example: Pakistan +92 ke liye: 923001234567
+            var phoneNumber = "923226858721"; // Isko apne number se change karo!
+
+            // WhatsApp URL banate hain
+            var whatsappURL = "https://wa.me/" + phoneNumber + "?text=" + whatsappMessage;
+
+            // User ko WhatsApp par bhej do
+            window.open(whatsappURL, '_blank');
+
+            // Form clear kar do
+            document.getElementById('contactForm').reset();
+
+            // Optionally: Success message dikhao
+            alert("Thank you! You are redirecting on WhatsApp");
+        }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
